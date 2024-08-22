@@ -1,0 +1,2 @@
+<link href="<?php echo base_url()?>ui/assets/plugins/dropzone/dropzone.min.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url()?>ui/assets/plugins/formBuild/dist/form-render.css" rel="stylesheet" type="text/css" />

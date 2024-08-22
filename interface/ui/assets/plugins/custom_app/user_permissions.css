@@ -1,0 +1,137 @@
+ .user_permi_box a.btn_colaps {
+  color: inherit;
+  padding: 0px 7px;
+  line-height: 30px;
+} 
+              
+  /* .user_permi_box  .head_panel.show + .collapse { display: block;}
+  .user_permi_box  .head_panel + .collapse { display: none;} */
+
+  .user_permi_box .content_panel { display: none!important;}
+  .user_permi_box .content_panel.active { display: block!important;}
+ 
+  .user_permi_box .head_panel {
+    padding: 4px 10px;
+    border-bottom: solid 1px #ddd;
+    cursor: pointer;
+    background: #dedede;
+    color: #000;
+  }
+
+  .user_permi_box   .head_panel h5{    line-height: 30px;}
+  .ceckUl  { margin-top: 10px;}
+.ceckUl li { font-size: 14px; display: inline; }
+.ceckUl li span i{font-size:12px;}
+
+.check_head .check_icon  { border-radius: 50%; width: 20px; height: 20px; padding: 0px; line-height: 20px; } 
+.user_permi_box .form-check .form-check-input{
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+
+
+
+/* accordion-container */
+
+  .accordion-container .accordion-title {
+  position: relative;
+  margin:0 0 2px;
+  padding : 8px 10px;
+  background-color: #39afd1;
+  font-size: 1.25em;
+  font-weight: strong;
+  color: #fff;
+  cursor: pointer;
+}
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-title.open { 
+  background-color: #39afd1;
+}
+.accordion-container .accordion-title::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top-color: #fff;
+}
+.accordion-container .accordion-title.open::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  border: 8px solid transparent;
+  border-bottom-color: #fff;
+}
+.bg-gray { background-color: #8391a2; }
+
+.applications_check_box .card-header { padding: 10px 10px; }
+.app_candidateinfo_box .card-header { padding: 10px 10px;}
+
+.applications_check_box .card-header h4 {font-size: 14px; }
+.app_candidateinfo_box .card-header h4 {font-size: 14px; }
+
+.add_services_row .fileinput { padding: 0px 6px !important}
+
+/*CSS for CodePen*/
+
+.accordion-content {
+  padding: 20px;    margin-top: -2px;    margin-bottom: 10px;
+  border: 1px solid #f1f1f1; background-color: #fff;
+}
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
+.check-group {  padding:0px 0px 0px 0px;
+}
+
+.check-group .check_content_box {
+  display: none!important;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+  opacity: 0;
+}
+.check-group .check_content_box.active {
+  opacity: 1;  display: block!important;
+   padding: 0px 10px 10px;
+
+ 
+ 
+}
+.check_head_panel {
+  cursor: pointer;
+  padding: 6px 0px;
+  line-height: 16px;
+margin-bottom: 2px;
+}
+
+.check-group .btn_colaps {
+  background-color: #fff;
+  font-size: 20px;
+}
+
+/* accordion-container */
+
+
+.permissions-form .user_permi_box a.btn_colaps{
+
+}
+.permissions-form .user_permi_box .head_panel{
+  padding: 0px 10px;
+}
+.permissions-form .user_permi_box .head_panel h5 {
+    line-height: 29px;
+    font-size: 12px;
+}
+.permissions-form .user_permi_box label.form-check-label {
+    font-size: 12px;
+    margin-bottom: 0px;
+}

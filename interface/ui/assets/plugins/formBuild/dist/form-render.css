@@ -1,0 +1,64 @@
+.upload-form-render .card .card-header {
+    padding: 5px 10px;
+    font-size: 15px;
+    background: #0093dd;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0px !important;
+}
+.upload-form-render .card {
+    border: solid 1px #0093dd;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+.upload-form-render .card .card-box{
+  margin-bottom: 0px;
+}
+.fields-form-render .rendered-form .sectionHeader{
+    padding: 9px 10px;
+    font-size: 17px;
+    background: #0093dd;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.fields-form-render .rendered-form label{
+  margin-bottom: 0px;
+}
+.fields-form-render .rendered-form .builder-section-box ~ .form-group, .fields-form-render .rendered-form p {
+/*    border-left: 1px solid #0093dd;
+    border-right: 1px solid #0093dd;*/
+    padding: 10px 15px;
+    margin-bottom: 0px;
+}
+.fields-form-render .rendered-form .form-group:last-child {
+    /*border-bottom: 1px solid #0093dd;*/
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.fields-form-render .rendered-form .builder-section-box + .form-group {
+    border-top: 1px solid #0093dd;
+}
+.fields-form-render .rendered-form .builder-section-box {
+    border-top: 1px solid #0093dd;
+    padding-top: 30px;
+}
+.fields-form-render .rendered-form .builder-section-box:first-child {
+    border-top: none;
+    padding-top: 0px;
+}
+.formbuilder-textarea.form-group p{
+    border: none !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.rendered-form .formbuilder-textarea.form-group .form-control{
+    border-radius: 0px;
+    height: auto!important;
+}
+.rendered-form input[type="date"]::-webkit-calendar-picker-indicator,
+.rendered-form input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    appearance: none;
+}

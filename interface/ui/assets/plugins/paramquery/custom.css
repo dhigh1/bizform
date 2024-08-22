@@ -1,0 +1,48 @@
+.pq-grid .ui-state-active, .ui-widget-content .ui-state-active, 
+.pq-grid .ui-widget-header .ui-state-active,{
+    background: #a3c1da;
+    border-color: #4682b4;
+    color: #fff;
+}
+.pq-grid .pq-header-outer .pq-grid-cont .pq-grid-col{
+    background-color: #d5d7df;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pq-grid .pq-body-outer .pq-grid-cont .pq-grid-cell{
+    font-size: 13px;
+    padding: 5px 5px;
+}
+.pq-grid .pq-grid-footer.pq-pager .pq-ui-button{
+    cursor: pointer;
+}
+.pq-grid .pq-grid-footer.pq-pager .pq-ui-button.disabled{
+    cursor: not-allowed;
+    pointer-events: all;
+}
+.pq-grid .pq-body-outer .pq-cont-left {
+     border-right: none; 
+}
+.pq-grid .pq-body-outer .pq-grid-cont .pq-grid-cell .delete_btn{
+    padding: 3px 8px;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: red;
+    border: solid 1px red;
+    border-radius: 10px;
+    color: #fff;
+}
+.pq-grid-top .pq-toolbar button {
+    font-size: 12px;
+    padding: 4px 10px;
+}
+.pq-grid-top .pq-toolbar {
+    padding: 5px 1px;
+}
+.pq-grid-row button.grid-action-buttons{
+    font-size: 12px;
+    padding: 4px 5px;
+    margin: 0px 3px;
+}

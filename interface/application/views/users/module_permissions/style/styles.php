@@ -1,0 +1,1 @@
+<link href="<?php echo base_url(); ?>ui/assets/plugins/custom_app/user_permissions.css" rel="stylesheet" type="text/css"  />

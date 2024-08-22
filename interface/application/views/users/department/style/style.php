@@ -1,0 +1,1 @@
+<link href="<?php echo base_url(); ?>ui/assets/plugins/custom_app/organization_structure.css" rel="stylesheet" type="text/css"  />

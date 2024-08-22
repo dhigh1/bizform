@@ -1,0 +1,1 @@
+<link href="<?php echo base_url()?>ui/assets/plugins/dropify/css/dropify.min.css" rel="stylesheet" type="text/css" />

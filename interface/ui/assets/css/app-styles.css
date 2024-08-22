@@ -1,0 +1,334 @@
+/* start ajax loader css */
+
+#resultLoading{
+ width:100%;
+ height:100%;
+ position:fixed;
+ z-index:10000000;
+ top:0;
+ left:0;
+ right:0;
+ bottom:0;
+ margin:auto;
+}
+
+#resultLoading .bg{
+ background:#000000;
+ opacity:0.7;
+ width:100%;
+ height:100%;
+ position:absolute;
+ top:0;
+}
+
+#resultLoading div.loaderBox{
+ width: 250px;
+ height:75px;
+ text-align: center;
+ position: fixed;
+ top:0;
+ left:0;
+ right:0;
+ bottom:0;
+ margin:auto;
+ font-size:16px;
+ z-index:10;
+ color:#ffffff;
+}
+
+#resultLoading .bg{
+	height: 100%;
+}
+#resultLoading #ajaxtext{
+	color: #000;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+
+/* end ajax loader css */
+
+
+.ajax-file-loader{
+    background-color: #ddd;
+    background-image: none !important;
+    display: inline-block;
+    vertical-align: -0.125em;
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: .75s linear infinite spinner-grow;
+    animation: .75s linear infinite spinner-grow;
+}
+
+
+
+.invalid-feedback{
+	display: block !important;
+}
+.bootbox .modal-header .bootbox-close-button.close{
+    border: none;
+    background-color: unset;
+    font-size: 23px;
+    padding: 0px 0px;
+}
+.bootbox .modal-header{
+    padding: 3px 15px;
+}
+
+.filter_properties{
+    padding: 8px 8px;
+}
+
+.table-bordered td, .table-bordered th {
+    vertical-align: middle!important;
+    font-size: 12px;
+    border: solid 1px #ddd;
+}
+.table-bordered th {
+    background-color: #eee;
+    padding: 10px 5px;
+}
+.table-bordered tr td {
+    background-color: #fff;
+    padding: 5px 5px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: none;
+    color: unset;
+}
+
+#page_result{
+    margin-top: 25px;
+    float: right;
+}
+.table-action a.action-icon{
+    font-size: 16px;
+    cursor: pointer;
+}
+.swal2-popup .swal2-title{
+    font-size: 20px !important;
+}
+.swal2-popup .swal2-styled {
+    padding: 5px 25px !important;
+}
+
+table.data-view-tables tr td:first-child{
+    font-weight: 800;
+}
+table.data-view-tables tr{
+    border: solid 1px #ddd;
+}
+
+
+.Togglepwd .pwd-input {
+  position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+
+.password-input-block .input-group label.error{
+    position: absolute;
+    bottom: -24px;
+}
+
+.table-btn-sm{
+    padding: 3px 6px;
+    font-size: 11px;
+}
+
+
+#Tbl .table{
+    margin-bottom: 0px;
+}
+
+.bootbox.modal.modal-content-alert .modal-footer{
+    display: block;
+    text-align: center;
+    border-top: none;
+    padding: 0px 10px 10px 0px;
+}
+.bootbox.modal.modal-content-alert .modal-footer .btn.btn-success{
+    padding: 5px 32px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+form .div_res .alert p{
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.custom-alert-content{
+    padding: 4px 10px;
+    font-size: 12px;
+}
+table img.table-sm-img{
+    max-width: 60px;
+    max-height: 20px;
+}
+button.no-btn-style{
+    background: unset;
+    border: none;
+    padding: 0px;
+    min-width: unset;
+}
+.icon_drop.iconpicker:before{
+    content: none; 
+}
+
+.input-group label.error{
+    position: absolute;
+    bottom: -20px;
+}
+
+.formBuilder-actions button{
+    margin: 5px 5px;
+}
+
+.form-wrap.form-builder .stage-wrap.empty{
+    /* min-height: 200px; */
+}
+.table.db-data-render tr td{
+    padding: 0px 5px;
+    font-size: 12px;
+}
+.table.db-data-render tr td.label{
+    font-weight: 700;
+}
+
+.select2-container-multi .select2-choices{
+    border: solid 1px #dee2e6;
+    box-shadow: unset !important;
+    border-radius: 5px;
+    background-image: none;
+    height: auto !important;
+}
+.select2-container-multi .select2-choices::hover{
+    border-color: inherit;
+}
+
+.work-order-table .card .card-body .data-card-actions .btn{
+    padding: 1px 10px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.work-order-table .card .card-header{
+    padding: 10px 10px;
+}
+.work-order-table .card .card-body{
+    padding: 10px;
+}
+.work-order-table .card .card-body .data-card-actions .btn .spinner-border-sm {
+    width: 10px;
+    height: 10px;
+}
+td.data-label{
+    font-weight: 800;
+}
+
+.form-wrap.form-builder .frmb .form-elements .false-label:first-child, .form-wrap.form-builder .frmb .form-elements label:first-child {
+    white-space: inherit !important;
+    line-height: 15px;
+    font-size: 12px;
+}
+
+.form-wrap.form-builder .frmb .form-elements select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat;
+    background-position: right 0.9rem center;
+    background-size: 16px 12px;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.form-check label.form-check-label{
+    cursor: pointer;
+}
+
+.form-wrap.form-builder .frmb .sortable-options .option-selected {
+  width: auto !important;
+}
+
+.dz-success-mark svg, .dz-error-mark svg{
+    width: 20px !important;
+}
+.dropify-wrapper .dropify-message span.file-icon {
+  font-size: 14px;
+}
+.dropify-wrapper .dropify-message span.file-icon::before{
+    font-size: 25px;
+}
+.upload-form-render .card.file-uploads-box .dropify-wrapper{
+    border: none;
+}
+.upload-form-render .card.file-uploads-box {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.upload-form-render .card.file-uploads-box .card-header {
+  padding: 5px 10px;
+}
+
+.rendered-form input[type="date"]::-webkit-calendar-picker-indicator,
+.rendered-form input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    appearance: none;
+}
+
+#importForm .columnPreview{
+    margin: 3px 0px;
+}
+#importForm .columnPreview table{
+    margin-bottom: 1px;
+}
+#importForm .columnPreview .table-bordered th {
+    background-color: #eee;
+    padding: 5px 5px;
+    font-size: 11px;
+}
+.columnPreview a.btn-sm{
+    font-size: 11px;
+    padding: 3px 7px;
+}
+.dataViewToggler:focus{
+    box-shadow: unset;
+    outline: none;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.collapse.in{
+    display: block; 
+}
+
+#resultLoading .loaderBox .card-body{padding:15px 10px;}
+
+
+select.form-select, select.form-control{
+   /* width: 30%;
+   padding: 10px; */
+   /* Replace Default styling (arrow) */
+   appearance: none !important;
+   -webkit-appearance: none !important;
+   -moz-appearance: none !important;
+   background-image: url('data:image/svg+xml;utf8,<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 10.127L12 18.127L20 10.127H4Z" fill="%238E8E93"/></svg>') !important;
+   background-repeat: no-repeat !important;
+   background-position-y: 50%;
+   background-position-x: 98%;
+   }
